@@ -15,18 +15,6 @@ body {
   top: 4vw;
   right: 4vw;
 }
-.center {
-  justify-content: center;
-}
-
-.title {
-  font-size: 36px;
-  line-height: 36px;
-}
-.subtitle {
-  font-size: 20px;
-  line-height: 20px;
-}
 
 #motto {
   margin: 30vh auto 10vh;
@@ -34,10 +22,13 @@ body {
   font-size: 9vw;
   line-height: 9vw;
 }
-.underline {
-  border-bottom: 1px solid rgb(235, 48, 124);
+.word.new {
   color: rgb(235, 48, 124);
 }
+.word.old {
+  color: red;
+}
+
 .button {
   display: inline-block;
   padding: 0.5em;
