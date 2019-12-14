@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background-color: white;
+  display: block;
+  font-family: 'Chonburi', sans-serif;
+  text-align: center;
+}
+
+#header {
+  /* width: 100%;
+  max-width: 100px;
+  height: 100px;
+  margin: 0 auto; */
+  position: absolute;
+  top: 4vw;
+  right: 4vw;
+}
+.center {
+  justify-content: center;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 36px;
+}
+.subtitle {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+#motto {
+  margin: 30vh auto 10vh;
+  text-align: center;
+  font-size: 9vw;
+  line-height: 9vw;
+}
+.underline {
+  border-bottom: 1px solid rgb(235, 48, 124);
+  color: rgb(235, 48, 124);
+}
+.button {
+  display: inline-block;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 3vw;
+  border: 1px solid rgb(235, 48, 124);
+  background-color: white;
+  color: rgb(235, 48, 124);
+}
+.button:hover {
+  background-color: rgb(235, 48, 124);
+  color: white;
+  cursor: pointer;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
