@@ -7,15 +7,14 @@ body {
 }
 
 #header {
-  /* width: 100%;
-  max-width: 100px;
-  height: 100px;
-  margin: 0 auto; */
+  width: 100%;
+  margin: 0 auto;
   position: absolute;
   top: 4vw;
-  right: 4vw;
+  /* right: 4vw; */
   line-height: 0.7em;
-  text-align: right;
+  font-family: sans-serif;
+  /* text-align: right; */
 }
 
 #motto {
@@ -23,34 +22,4 @@ body {
   text-align: center;
   font-size: 9vw;
   line-height: 9vw;
-}
-.word.new {
-  color: rgb(235, 48, 124);
-}
-.word.old {
-  color: red;
-}
-
-.button {
-  display: inline-block;
-  padding: 0.5em;
-  text-align: center;
-  font-size: 3vw;
-  border: 1px solid rgb(235, 48, 124);
-  background-color: white;
-  color: rgb(235, 48, 124);
-}
-.button:hover {
-  background-color: rgb(235, 48, 124);
-  color: white;
-  cursor: pointer;
-}
-.noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
 }
